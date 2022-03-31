@@ -1,0 +1,44 @@
+body {
+   background-color: orange;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+   text-align: center;
+}
+
+#minutes, #seconds, #tens{
+   font-size: 2em;  
+   color: white;
+}
+   
+#timer-display {
+   color: white;
+   font-size: 2em;
+}
+
+#app-title {
+   font-size: 3em;
+   color: white;
+}
+
+button {
+   width: 100px;
+   height: 40px;
+   margin: 10px;
+   border: 3px;
+   border: solid 1px white; 
+   font-size: 1.2em;
+   color: white;
+   background-color: orange;
+   border-radius: 10px;
+   transition: 0.3s;
+   transition-delay: 0.2s;
+}
+
+button:hover {
+   background-color: white;
+   color: orange;
+   transition: 0.3s;
+   transition-delay: 0.2s;
+}
